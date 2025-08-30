@@ -13,3 +13,6 @@ dependencies:
   - seaborn
   - scipy
   - statsmodels
+  - pip
+  - pip:
+      - "openbb[all]"
