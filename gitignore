@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist-info/
+
+# Virtual envs (keep env reproducible via environment.yml)
+.venv/
+venv/
+.env
+env/
+
+# Micromamba/Conda (never commit local envs)
+.conda/
+.mamba/
+.micromamba/
+conda-meta/
+pkgs/
+
+# Jupyter
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# Caches & tooling
+.cache/
+.mypy_cache/
+.pytest_cache/
+pytestdebug.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node (only if you happen to prototype JS in notebooks)
+node_modules/
+
+# Data/artifacts (optional; un-comment or customize for your workflow)
+# data/
+# outputs/
+# logs/
